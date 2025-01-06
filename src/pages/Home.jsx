@@ -10,7 +10,7 @@ function Home() {
   console.log(query);
 
   useEffect(() => {
-    fetchMovies();
+    // fetchMovies();
   }, []);
 
   async function fetchMovies() {
@@ -35,7 +35,7 @@ function Home() {
   }
 
   return (
-    <div className="flex flex-col items-center gap-8">
+    <div className="flex flex-col items-center gap-12">
       <h1 className="text-6xl text-[#ddc2a2]">MovieApp</h1>
       <div className="flex gap-4 items-center justify-between rounded-full py-4 px-8 bg-slate-700 w-[30%]">
         <input
